@@ -1,0 +1,173 @@
+HTML-hyper text markup language
+Introdution to web web development:-
+1 HTML
+2 CSS
+3 Java script
+
+1 HTML(hypertext markup language):-
+  it structures web content using taps
+  tags define heading,paragraphs,links 
+
+2 CSS(cascading style sheets):-
+  it styles web contexts,changing colors fonts, and layouts
+.
+3 Javascript:-
+  it adds interactivity and dynamic features to websites
+
+structure of html docment:-
+</Doctype html>
+<html>
+<head>
+<title>title here</title>
+<head>
+<body>
+web page content goes here.
+</body>
+</html>
+
+html basics:-
+1 building blocks of html
+2 html document strcture
+3 text formatting
+4 creating lists
+5 hyperlinks in html
+
+building blocks of html:-
+1 tags 
+2 attributes
+3 elements
+tags:-
+1 html
+2 head
+3 body
+4 title
+
+formating tags:-(applied on text)
+heading-h1,h2,h3,h4,h5,h6-,<h1></h2>
+
+font-<font></font>
+3 attributes(additional information)
+face-time
+size
+color
+<font face="time new roman"size="20"color="red"
+welcome to html
+</font>
+
+it as 3 colors
+red-00 to ff
+green-00 to ff
+blue-00 to ff
+color=#000000-white
+color=#ffffff-black 
+
+bold-<b> </b>-<b>hi</b>-hi
+italic-<i> </i>-<i>hi</i>-hi
+underline-<u> </u>-<u>hi</u>-hi
+quotation-<q></q>-<q>hi</q>-"hi"
+breakrow-<br>-hi<br>welcome-hi welcome
+strike-<strike></strike>-<strike>hi<strike>-histrike
+strong-<strong></strong>-<strong>hi<strong>-hi
+small-<small></small>-hi<small>welcome<small>-hi welcome
+delete-<del></del>-<del>hello</del>-hello
+
+abbrevation:-
+<abbr></abbr>
+1 attribute->title
+<abbr title="water">H2O<labbr>
+
+date-bidrectional override-<dbo><dbo>
+<dbo dir="ltr">hic<ldbo>->hi
+<dbo div="rtl">hic<idbo>->hi
+
+subscript->H2O-><sub></sub>
+H<sub>2</sub>O->H2O
+
+superscrip->X2-><sup></sup>
+X<sup>2<sup>->X2
+
+LISTS
+1-unordered list
+2-orered list
+
+1 UNORDERED
+CSE 
+ECE
+EEE
+
+WE USE SYMBOLS
+circle
+disc
+square
+none
+
+2 ORDERED
+we use numbers
+alphsbets
+123....
+ABC....
+abc....
+123....
+
+1 UNORDERED
+<UL style="list-style-type=circle">
+<li>CSE</LI>
+<li>ECE</li>
+<li>EEE</li>
+</UL>
+
+2 ORDERED
+<ol style="list-style-type=circle">
+<li>CSE</LI>
+<li>ECE</li>
+<li>EEE</li>
+</UL>>
+
+TABLES
+
+TR-Table row
+TD-Table data
+TC-table coumns
+
+<table>
+<TD>Dtae 1</TD>
+<TD>Date 2</TD>
+<Td>Date 3</TD>
+</TR>
+<TR>
+<TD>Date4</TD>
+<TD>Date5</TD>
+<TD>Date6</TD>
+</TR>
+</Table>
+
+IMAGE:-
+IMAGE-<IMG>
+attribute:-
+SRC-source
+ALT-alternate
+width-in pixels
+height-in pixela
+Align-left/right
+
+EX:-
+<IMG SRC="D:\hello.jpg"ALT="HELLO"WIDTH="300"
+HIGHT="300"
+
+ANGHOR-<a>-hyperlinks</a>
+attributes
+href=hyperlink refernce
+target webpage
+title=for tooltip
+target=new
+EX:-
+<a>href="htip:"www%tube.com>youtube<a>
+
+MARQUEE-<marquees>-moving text-</marquees>
+
+attributes-scroll(undirectional)
+           alternate(di directional)
+bg color-background color
+height<pixels
+loop-no.of times
+loop2-INFinf(defult)
