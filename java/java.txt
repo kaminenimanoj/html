@@ -139,3 +139,8 @@ const
 reserved keyword
 enum(1.5v)
 
+date types:-
+in java every variable and every expertion as same type
+every assiament should be creaked by complier for type comparability
+
+
