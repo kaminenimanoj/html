@@ -167,5 +167,46 @@ double
 char
 boolean
 
+byte date type:-
+size 1byte(8bits)
+
+max valve:-127
+min value:-128
+range:- -128 to 127
+
+Ex:-
+byte b=10; is correct
+byte b=127;is correct
+byte b=128;is incorrect 
+ce:-possible loss of precision
+found=int
+required=byte
+
+byte b=true;-ce:-incompotite types
+found=boolean
+
+short=
+size=2bytes(16 bits)
+range=-2 power 15 to 2 power 15-1
+[-32768 to 32767]
+
+int=
+the most commond used date type is int
+size=4 bytes (32 bits)
+range=-2 power 31 to 2 power 31-1
+[-2147483648 to 2147483647]
+
+Ex=int x=2147483647; is correct
+int x=2147483648;is incorrect
+ce-integer number to large
+
+int x=2147483648l;
+found=long
+required=int
+
+intx=true;
+ce-incompotible types
+found=boolean 
+required=int
 
 
