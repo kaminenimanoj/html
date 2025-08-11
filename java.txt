@@ -11,7 +11,7 @@ language fundamentals:-
 10 java coding stand
 
 1 Identifiers:-
- a name in java program id indentifier
+ a name in java program id identifier
 
 rolls for defining java identifier:-
 the allowed chars in java chars-a to z,A to Z,0 to 9,$ and _ identifiers
