@@ -209,4 +209,22 @@ ce-incompotible types
 found=boolean 
 required=int
 
+floating-point date types
 
+float:-
+single precision-less ass
+size=4 bytes
+range=-3.4e08 to 3.4e08
+
+double:-
+double precision-more ass
+size=8 bytes
+range=-1.7e38 to 1.7e38
+
+Boolean:-
+Boolean b=true;
+boolean b=0;
+ce-incompotible types
+found=it
+required=boolean
+boolen b=true;
