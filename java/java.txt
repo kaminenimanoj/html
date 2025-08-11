@@ -142,5 +142,30 @@ enum(1.5v)
 date types:-
 in java every variable and every expertion as same type
 every assiament should be creaked by complier for type comparability
+java is not consider as pure object orented programing lananage because seriel oops features are not satified by java (like operated over loading and multiped etc...)
+more over we are depending primitive data type with non-objects
+
+primitive date types(8):-
+1 numeric date types
+2 non-numeric data types
+
+1 numeric date types:-
+1 integral date types
+2 floating-point date types
+
+1 integral date types
+byte
+short
+int
+long
+
+2 floating-point date types
+float
+double
+
+2 non-numeric date types
+char
+boolean
+
 
 
