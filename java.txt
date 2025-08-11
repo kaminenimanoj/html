@@ -1,5 +1,5 @@
 language fundamentals:-
-1 indentifiers
+1 identifiers
 2 reserved words
 3 date types
 4 literals
