@@ -228,3 +228,33 @@ ce-incompotible types
 found=it
 required=boolean
 boolen b=true;
+
+literals:-
+int x=10;
+int=datatype/keyword
+x=variable/identifier
+10=constant/literal
+
+literal a constant valve which can be asscend is called literal
+
+ex=int x=10
+x is name of variable or identifier
+10 is a constant valve or literal
+
+1 decimal literals:-(base-10)
+int x=10;
+
+2 octal form :-(base-8)
+int x=0x10;
+
+3 hexa decimal form:-(base-16)
+int x=0x10;
+
+these are only posiable way to find literal valve for interger data types
+
+int x=10;is correct
+int x=0786;is incorrect
+ce-int x=0777;is correct
+int x=oxface;is correct
+int x=oxbeef;is correct
+intx=oxBeer;is incoorct
