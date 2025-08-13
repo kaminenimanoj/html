@@ -261,4 +261,4 @@ int x=0786;is incorrect
 ce-int x=0777;is correct
 int x=oxface;is correct
 int x=oxbeef;is correct
-intx=oxBeer;is incoorct
+int x=oxBeer;is incorect
