@@ -31,9 +31,9 @@ int number=30;
 }
 
 in java indentifers who many char allowed
-they is no length limit for java indentifer but is not requeted to take to length indentifiers
+they is no length limit for java indentifer but is not requeted to take to length identifiers
 ex-int x=10; is correct
-in if = 20;is incorrect why means we cannot use reserved words as indentifiers
+in if = 20;is incorrect why means we cannot use reserved words as identifiers
 
 ex:-class test
 {
@@ -65,6 +65,10 @@ keywords are 2 types
 use keywords,unused keywords
 in use keywords:-if..else...
 unused keywords:- goto,const
+
+reserved keywords sholdnot be used
+identifier shouldnot start with number
+it shouldnot strat with uppercase latters
 
 reserved word:-
 ture
