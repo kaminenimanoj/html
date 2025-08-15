@@ -11,7 +11,7 @@ language fundamentals:-
 10 java coding stand
 
 1 Identifiers:-
- a name in java program identifier
+ A name in java program identifier
 
 rules for defining java identifier:-
 "The allowed characters in Java identifiers are letters (a-z, A-Z), digits (0-9), the dollar sign ($), and the underscore (_); using any other character will result in a compile-time error."
@@ -19,7 +19,7 @@ ex:-total_number is correct
 total# is incorrect
 total123 is correct
 123total is incorrect
-Identifiers should not start with digits([0-9]). For example, "123geeks" is not a valid Java identifier. 
+Identifiers should not start with digits([0-9]). For example, "123manoj" is not a valid Java identifier. 
 
 ex-class test
 {
@@ -142,7 +142,7 @@ reserved keyword
 enum(1.5v)
 
 date types:-
-in java every variable and every expertion as same type .every assiament should be creaked by complier for type comparability
+In Java, every variable and every expression has a specific data type, and this type is determined at compile time.
 Pure Object Oriented Language or Complete Object Oriented Language are Fully Object Oriented Language that supports or have features that treats everything inside the program as objects. 
 It doesn't support primitive datatype(like int, char, float, bool, etc.).
 There are seven qualities to be satisfied for a programming language to be pure object-oriented. They are:
@@ -252,7 +252,7 @@ int x=0x10;
 3 hexa decimal form:-(base-16)
 int x=0x10;
 
-these are only posiable way to find literal value for integer data types
+these are only posiable way to find literal value for integer data types in java?
 
 int x=10;is correct
 int x=0786;is incorrect
