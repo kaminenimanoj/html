@@ -142,10 +142,10 @@ reserved keyword
 enum(1.5v)
 
 date types:-
-in java every variable and every expertion as same type
-every assiament should be creaked by complier for type comparability
-java is not consider as pure object orented programing lananage because seriel oops features are not satified by java (like operated over loading and multiped etc...)
-more over we are depending primitive data type with non-objects
+in java every variable and every expertion as same type .every assiament should be creaked by complier for type comparability
+Pure Object Oriented Language or Complete Object Oriented Language are Fully Object Oriented Language that supports or have features that treats everything inside the program as objects. 
+It doesn't support primitive datatype(like int, char, float, bool, etc.).
+There are seven qualities to be satisfied for a programming language to be pure object-oriented. They are:
 
 primitive date types(8):-
 1 numeric date types
@@ -237,7 +237,7 @@ int=datatype/keyword
 x=variable/identifier
 10=constant/literal
 
-literal a constant valve which can be asscend is called literal
+literal a constant valve which can be asscend is called literal 
 
 ex=int x=10
 x is name of variable or identifier
