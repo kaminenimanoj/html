@@ -42,7 +42,7 @@ system.out.printin(runable);
 }
 }
 
-which of the are vaild java identifiers
+which of these are vaild java identifiers
 total_number is correct
 total# is incorrect
 123 total is incorrect
