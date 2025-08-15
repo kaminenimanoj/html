@@ -13,7 +13,7 @@ language fundamentals:-
 1 Identifiers:-
  a name in java program identifier
 
-rolls for defining java identifier:-
+rules for defining java identifier:-
 "The allowed characters in Java identifiers are letters (a-z, A-Z), digits (0-9), the dollar sign ($), and the underscore (_); using any other character will result in a compile-time error."
 ex:-total_number is correct
 total# is incorrect
