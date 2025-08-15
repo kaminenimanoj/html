@@ -1,7 +1,7 @@
 language fundamentals:-
 1 identifiers
 2 reserved words
-3 date types
+3 data types
 4 literals
 5 arrays
 6 types of varialler
