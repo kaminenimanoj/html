@@ -63,7 +63,7 @@ keywords are 2 types
 use keywords,unused keywords
 in use keywords:-if..else...
 unused keywords:- goto,const
-
+23:54 14-08-2025
 reserved keywords sholdnot be used
 identifier shouldnot start with number
 it shouldnot strat with uppercase latters
