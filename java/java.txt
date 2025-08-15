@@ -66,9 +66,9 @@ unused keywords:- goto,const
 23:54 14-08-2025
 reserved keywords sholdnot be used
 identifier shouldnot start with number
-it shouldnot strat with uppercase latters
+it shouldnot strat with uppercase letters
 
-reserved word:-
+reserved words:-
 ture
 flase
 null
@@ -83,12 +83,12 @@ double
 boolen
 char
 
-kayword for flowchat:-
+keywords for flowchat:-
 if 
 else
 switch
 case
-dfault
+default
 while
 do
 for
@@ -103,13 +103,13 @@ protated
 static
 final
 asstrit
-synchroized
+synchronized
 native
-stritfp(1.2v)
+strictfp(1.2v)
 transient
 volatile
 
-keyworld for extention standing:-
+keyword for extension standing:-
 try
 catch
 findly
@@ -147,29 +147,29 @@ Pure Object Oriented Language or Complete Object Oriented Language are Fully Obj
 It doesn't support primitive datatype(like int, char, float, bool, etc.).
 There are seven qualities to be satisfied for a programming language to be pure object-oriented. They are:
 
-primitive date types(8):-
-1 numeric date types
+primitive datatypes(8):-
+1 numeric data types
 2 non-numeric data types
 
-1 numeric date types:-
-1 integral date types
-2 floating-point date types
+1 numeric data types:-
+1 integral data types
+2 floating-point data types
 
-1 integral date types
+1 integral data types
 byte
 short
 int
 long
 
-2 floating-point date types
+2 floating-point data types
 float
 double
 
-2 non-numeric date types
+2 non-numeric data types
 char
 boolean
 
-byte date type:-
+byte data type:-
 size 1byte(8bits)
 
 max valve:-127
@@ -193,7 +193,7 @@ range=-2 power 15 to 2 power 15-1
 [-32768 to 32767]
 
 int=
-the most commond used date type is int
+the most commond used data type is int
 size=4 bytes (32 bits)
 range=-2 power 31 to 2 power 31-1
 [-2147483648 to 2147483647]
@@ -207,11 +207,11 @@ found=long
 required=int
 
 intx=true;
-ce-incompotible types
+ce-incompotiable types
 found=boolean 
 required=int
 
-floating-point date types
+floating-point data types
 
 float:-
 single precision-less ass
@@ -237,7 +237,7 @@ int=datatype/keyword
 x=variable/identifier
 10=constant/literal
 
-literal a constant valve which can be asscend is called literal 
+literal a constant valve which can be asscend is called literal meaning
 
 ex=int x=10
 x is name of variable or identifier
@@ -247,7 +247,7 @@ x is name of variable or identifier
 int x=10;
 
 2 octal form :-(base-8)
-int x=0x10;
+int x=010;
 
 3 hexa decimal form:-(base-16)
 int x=0x10;
