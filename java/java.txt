@@ -11,12 +11,10 @@ language fundamentals:-
 10 java coding stand
 
 1 Identifiers:-
- a name in java program id identifier
+ a name in java program identifier
 
 rolls for defining java identifier:-
-the allowed chars in java chars-a to z,A to Z,0 to 9,$ and _ identifiers
-if we are using any other char we will get compost time error
-
+"The allowed characters in Java identifiers are letters (a-z, A-Z), digits (0-9), the dollar sign ($), and the underscore (_); using any other character will result in a compile-time error."
 ex:-total_number is correct
 total# is incorrect
 total123 is correct
