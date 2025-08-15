@@ -28,7 +28,7 @@ int number=20;
 int number=30;
 }
 
-in java identifers how many char allowed
+java identifers how many character allowed
 An identifier in Java is the name given to Variables, Classes, Methods, Packages, Interfaces, etc. These are the unique names used to identify programming elements. Every Java Variable must be identified with a unique name.
 ex-int x=10; is correct
 in if = 20;is incorrect why means we cannot use reserved words as identifiers
@@ -252,7 +252,7 @@ int x=0x10;
 3 hexa decimal form:-(base-16)
 int x=0x10;
 
-these are only posiable way to find literal valve for interger data types
+these are only posiable way to find literal value for integer data types
 
 int x=10;is correct
 int x=0786;is incorrect
