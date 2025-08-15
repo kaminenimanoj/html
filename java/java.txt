@@ -21,7 +21,7 @@ ex:-total_number is correct
 total# is incorrect
 total123 is correct
 123total is incorrect
-identifers are cannot start digit total123 vaild but 123 total invaild
+Identifiers should not start with digits([0-9]). For example, "123geeks" is not a valid Java identifier. 
 
 ex-class test
 {
@@ -30,8 +30,8 @@ int number=20;
 int number=30;
 }
 
-in java indentifers who many char allowed
-they is no length limit for java indentifer but is not requeted to take to length identifiers
+in java identifers who many char allowed
+An identifier in Java is the name given to Variables, Classes, Methods, Packages, Interfaces, etc. These are the unique names used to identify programming elements. Every Java Variable must be identified with a unique name.
 ex-int x=10; is correct
 in if = 20;is incorrect why means we cannot use reserved words as identifiers
 
@@ -44,7 +44,7 @@ system.out.printin(runable);
 }
 }
 
-which of the are vaild java indentifiers
+which of the are vaild java identifiers
 total_number is correct
 total# is incorrect
 123 total is incorrect
