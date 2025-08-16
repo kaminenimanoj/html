@@ -286,7 +286,7 @@ Each element in an array is identified by an index number, which represents its 
 Array indices in Java are zero-based, meaning the first element is at index 0, the second at index 1, and so on. 
 
 Objects in Java:
-In Java, arrays are objects, meaning they are created using the new keyword and have properties like length
+In Java, arrays are objects, meaning they are created using the new keyword and have properties like length (which returns the number of elements in the array).
 
 array declaration:-
 *one dimensional array declaration
