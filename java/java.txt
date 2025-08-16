@@ -257,3 +257,45 @@ ce-int x=0777;is correct
 int x=oxface;is correct
 int x=oxbeef;is correct
 int x=oxBeer;is incorect
+
+Arrays:-
+1 introduction
+2 array declaration
+3 array creation
+4 array initialization
+5 array declaration,creation,and,initialization in a single line
+6 length vs length()
+7 anonymous arrays
+8 array elament assignments
+9 array variable assignments
+
+1 introduction:-
+Arrays in Java are fundamental data structures used to store a fixed-size sequential collection of elements of the same data type.
+They provide a way to organize and manage multiple values under a single variable name.
+ 
+Key characteristics of Java arrays:
+
+Homogeneous Elements:
+All elements within an array must be of the same data type (e.g., all integers, all strings, all custom objects).
+
+Fixed Size:
+Once an array is created, its size (the number of elements it can hold) cannot be changed.
+
+Indexed Access:
+Each element in an array is identified by an index number, which represents its position.
+Array indices in Java are zero-based, meaning the first element is at index 0, the second at index 1, and so on. 
+
+Objects in Java:
+In Java, arrays are objects, meaning they are created using the new keyword and have properties like length
+
+array declaration:-
+*one dimensional array declaration
+int[] x;
+int []x;
+int x[];
+
+ex:-int[6] x;
+int[] x;
+
+
+
