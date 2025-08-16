@@ -63,7 +63,7 @@ keywords are 2 types
 use keywords,unused keywords
 in use keywords:-if..else...
 unused keywords:- goto,const
-23:54 14-08-2025
+
 reserved keywords sholdnot be used
 identifier shouldnot start with number
 it shouldnot strat with uppercase letters
@@ -109,7 +109,7 @@ strictfp(1.2v)
 transient
 volatile
 
-keyword for extension standing:-
+keywords for extension standing:-
 try
 catch
 findly
@@ -180,11 +180,10 @@ Ex:-
 byte b=10; is correct
 byte b=127;is correct
 byte b=128;is incorrect 
-ce:-possible loss of precision
 found=int
 required=byte
 
-byte b=true;-ce:-incompotite types
+byte b=true;
 found=boolean
 
 short=
@@ -207,7 +206,6 @@ found=long
 required=int
 
 intx=true;
-ce-incompotiable types
 found=boolean 
 required=int
 
@@ -226,7 +224,6 @@ range=-1.7e38 to 1.7e38
 Boolean:-
 Boolean b=true;
 boolean b=0;
-ce-incompotible types
 found=it
 required=boolean
 boolen b=true;
