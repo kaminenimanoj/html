@@ -319,3 +319,37 @@ int [][] a[];
 int []a[][];
 int [][]a[];
 
+Array creation:-
+every array in java is an object only hence we create arrays by using new operator
+ex:-int[] a=new int[3];
+for every type corresponding classes are available and these classes are part of java language and not available to the programmer level
+
+ex:- supin(a.getclass().gethome());[I
+Arrat type | corresponding class name
+           |
+int[]      ->[I     
+int[][]    ->[[I
+double[]   ->[D
+short[]    ->[s
+byte[]     ->[B]
+boolean[]  ->[Z
+
+At the time of creation compulsory we should specify the size otherwise complie time error.
+
+Ex:- int() x=new int[]; is invaild
+int() x=new int[6]; is vaild
+It is a legel to have an array with the size Zero in java.
+
+ex:-int[]=new int[0];
+To specify array size the allowed data types are bite,short,char,int it we are trying to specify any other type then we well get compile time  error.
+
+two-dimensional creation:-
+In java two-dimensional array not implemented by using matrix style people followed array of arrays approch for multi-dimensional array creation.
+The main advantage of this approch memory vitilization will be improved.
+ex:-int[][] x=new int[2][];
+x[0]=new int[2]
+x[1]=new int[3]
+
+How to create two dimensional array
+
+
