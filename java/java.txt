@@ -358,5 +358,20 @@ x[0][1]=new int[2];
 x[0][2]=new int[3];
 x[1]=new int[2][2];
 
+Array initialization:-
+onces we creates an array every element by default initialization with difault values
+ex:-int[] x=new int[3]
+sopin(x);[I@3e25a5
+sopin(x[o]);
 
+whenever we are trying to print any refernce variable internally two string menthod will be called which is implemented by default to return the string in the following from
+classname@hashcode-in-hemdecimatform
+
+ex:-int[] x=new int[0]
+x[0]=10;
+x[1]=20;
+x[2]=30;
+x[3]=40;
+x[4]=50;
+x[5]=60;
 
