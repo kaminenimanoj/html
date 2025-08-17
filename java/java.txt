@@ -296,6 +296,26 @@ int x[];
 
 ex:-int[6] x;
 int[] x;
+At the time of declaration we can't specify the size otherwise we get compile time error.
 
+Two dimensional array declaration
 
+ex:-int[][] x;
+int [][]x;
+int x[][];
+int[] [];
+int[] x[];
+int []x[];
+
+three dimensional array:-
+int[x][] a;
+int [][][]a;
+int a[][][];
+int [] [][]a;
+int []a[][];
+int [][]a[];
+int [][] []a;
+int [][] a[];
+int []a[][];
+int [][]a[];
 
