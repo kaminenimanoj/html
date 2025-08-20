@@ -1,0 +1,416 @@
+language fundamentals:-
+1 identifiers
+2 reserved words
+3 data types
+4 literals
+5 arrays
+6 types of varialler
+7 var-arg methods
+8 main methods
+9 command line arguments
+10 java coding stand
+
+1 Identifiers:-
+ A name in java program identifier
+
+rules for defining java identifier:-
+"The allowed characters in Java identifiers are letters (a-z, A-Z), digits (0-9), the dollar sign ($), and the underscore (_); using any other character will result in a compile-time error."
+ex:-total_number is correct
+total# is incorrect
+total123 is correct
+123total is incorrect
+Identifiers should not start with digits([0-9]). For example, "123manoj" is not a valid Java identifier. 
+
+ex-class test
+{
+int number=10;
+int number=20;
+int number=30;
+}
+
+java identifers how many character allowed
+An identifier in Java is the name given to Variables, Classes, Methods, Packages, Interfaces, etc. These are the unique names used to identify programming elements. Every Java Variable must be identified with a unique name.
+ex-int x=10; is correct
+in if = 20;is incorrect why means we cannot use reserved words as identifiers
+
+ex:-class test
+{
+public static void main (string()args)
+{
+int runnable
+system.out.printin(runable);
+}
+}
+
+which of these are vaild java identifiers
+total_number is correct
+total# is incorrect
+123 total is incorrect
+total123 is correct
+ca$h is correct
+_$_$_$_$_$_$_ is correct
+all@hands is incorrect
+java2share is correct
+Integer is correct 
+Int is correct 
+int is in correct
+
+Reserved words:-
+the total reserved words are 53
+keywords(50),reserved(3)
+
+keywords are 2 types
+use keywords,unused keywords
+in use keywords:-if..else...
+unused keywords:- goto,const
+
+reserved keywords sholdnot be used
+identifier shouldnot start with number
+it shouldnot strat with uppercase letters
+
+reserved words:-
+ture
+flase
+null
+
+keyword for date types:-
+byte
+short
+int
+long
+float
+double
+boolen
+char
+
+keywords for flowchat:-
+if 
+else
+switch
+case
+default
+while
+do
+for
+break
+contine
+refurn
+
+keywords for modifiers:-
+public
+private
+protated
+static
+final
+asstrit
+synchronized
+native
+strictfp(1.2v)
+transient
+volatile
+
+keywords for extension standing:-
+try
+catch
+findly
+throw
+throws
+arrert(1.4v) 
+
+class related keywords:-
+class
+interface
+extends
+inplements
+package
+import
+
+object related keywords:-
+new
+instance
+super
+this
+
+void return type keyword:-
+void
+
+used keywords:-
+goto
+const
+
+reserved keyword
+enum(1.5v)
+
+date types:-
+In Java, every variable and every expression has a specific data type, and this type is determined at compile time.
+Pure Object Oriented Language or Complete Object Oriented Language are Fully Object Oriented Language that supports or have features that treats everything inside the program as objects. 
+It doesn't support primitive datatype(like int, char, float, bool, etc.).
+There are seven qualities to be satisfied for a programming language to be pure object-oriented. They are:
+
+primitive datatypes(8):-
+1 numeric data types
+2 non-numeric data types
+
+1 numeric data types:-
+1 integral data types
+2 floating-point data types
+
+1 integral data types
+byte
+short
+int
+long
+
+2 floating-point data types
+float
+double
+
+2 non-numeric data types
+char
+boolean
+
+byte data type:-
+size 1byte(8bits)
+
+max valve:-127
+min value:-128
+range:- -128 to 127
+
+Ex:-
+byte b=10; is correct
+byte b=127;is correct
+byte b=128;is incorrect 
+found=int
+required=byte
+
+byte b=true;
+found=boolean
+
+short=
+size=2bytes(16 bits)
+range=-2 power 15 to 2 power 15-1
+[-32768 to 32767]
+
+int=
+the most commond used data type is int
+size=4 bytes (32 bits)
+range=-2 power 31 to 2 power 31-1
+[-2147483648 to 2147483647]
+
+Ex=int x=2147483647; is correct
+int x=2147483648;is incorrect
+ce-integer number to large
+
+int x=2147483648l;
+found=long
+required=int
+
+intx=true;
+found=boolean 
+required=int
+
+floating-point data types
+
+float:-
+single precision-less ass
+size=4 bytes
+range=-3.4e08 to 3.4e08
+
+double:-
+double precision-more ass
+size=8 bytes
+range=-1.7e38 to 1.7e38
+
+Boolean:-
+Boolean b=true;
+boolean b=0;
+found=it
+required=boolean
+boolen b=true;
+
+literals:-
+int x=10;
+int=datatype/keyword
+x=variable/identifier
+10=constant/literal
+
+literal a constant valve which can be asscend is called literal meaning
+
+ex=int x=10
+x is name of variable or identifier
+10 is a constant valve or literal
+
+1 decimal literals:-(base-10)
+int x=10;
+
+2 octal form :-(base-8)
+int x=010;
+
+3 hexa decimal form:-(base-16)
+int x=0x10;
+
+these are only posiable way to find literal value for integer data types in java?
+
+int x=10;is correct
+int x=0786;is incorrect
+ce-int x=0777;is correct
+int x=oxface;is correct
+int x=oxbeef;is correct
+int x=oxBeer;is incorect
+
+Arrays:-
+1 introduction
+2 array declaration
+3 array creation
+4 array initialization
+5 array declaration,creation,and,initialization in a single line
+6 length vs length()
+7 anonymous arrays
+8 array elament assignments
+9 array variable assignments
+
+1 introduction:-
+Arrays in Java are fundamental data structures used to store a fixed-size sequential collection of elements of the same data type.
+They provide a way to organize and manage multiple values under a single variable name.
+ 
+Key characteristics of Java arrays:
+
+Homogeneous Elements:
+All elements within an array must be of the same data type (e.g., all integers, all strings, all custom objects).
+
+Fixed Size:
+Once an array is created, its size (the number of elements it can hold) cannot be changed.
+
+Indexed Access:
+Each element in an array is identified by an index number, which represents its position.
+Array indices in Java are zero-based, meaning the first element is at index 0, the second at index 1, and so on. 
+
+Objects in Java:
+In Java, arrays are objects, meaning they are created using the new keyword and have properties like length (which returns the number of elements in the array).
+
+array declaration:-
+*one dimensional array declaration
+int[] x;
+int []x;
+int x[];
+
+ex:-int[6] x;
+int[] x;
+At the time of declaration we can't specify the size otherwise we get compile time error.
+
+Two dimensional array declaration
+
+ex:-int[][] x;
+int [][]x;
+int x[][];
+int[] [];
+int[] x[];
+int []x[];
+
+three dimensional array:-
+int[x][] a;
+int [][][]a;
+int a[][][];
+int [] [][]a;
+int []a[][];
+int [][]a[];
+int [][] []a;
+int [][] a[];
+int []a[][];
+int [][]a[];
+
+Array creation:-
+every array in java is an object only hence we create arrays by using new operator
+ex:-int[] a=new int[3];
+for every type corresponding classes are available and these classes are part of java language and not available to the programmer level
+
+ex:- supin(a.getclass().gethome());[I
+Arrat type | corresponding class name
+           |
+int[]      ->[I     
+int[][]    ->[[I
+double[]   ->[D
+short[]    ->[s
+byte[]     ->[B]
+boolean[]  ->[Z
+
+At the time of creation compulsory we should specify the size otherwise complie time error.
+
+Ex:- int() x=new int[]; is invaild
+int() x=new int[6]; is vaild
+It is a legel to have an array with the size Zero in java.
+
+ex:-int[]=new int[0];
+To specify array size the allowed data types are bite,short,char,int it we are trying to specify any other type then we well get compile time  error.
+
+two-dimensional creation:-
+In java two-dimensional array not implemented by using matrix style people followed array of arrays approch for multi-dimensional array creation.
+The main advantage of this approch memory vitilization will be improved.
+ex:-int[][] x=new int[2][];
+x[0]=new int[2]
+x[1]=new int[3]
+
+How to create two dimensional array
+int[][][] x=new int[2][][];
+x[0]=new int[3][];
+x[0][0]=new int[1];
+x[0][1]=new int[2];
+x[0][2]=new int[3];
+x[1]=new int[2][2];
+
+Array initialization:-
+onces we creates an array every element by default initialization with difault values
+ex:-int[] x=new int[3]
+sopin(x);[I@3e25a5
+sopin(x[o]);
+
+whenever we are trying to print any refernce variable internally two string menthod will be called which is implemented by default to return the string in the following from
+classname@hashcode-in-hemdecimatform
+
+ex:-int[] x=new int[0]
+x[0]=10;
+x[1]=20;
+x[2]=30;
+x[3]=40;
+x[4]=50;
+x[5]=60;
+
+Array declaration,creation and iniliazation in a single line:-
+we can declare create and initialize in a single line within (shortcut representation)
+int array x=new int array
+
+ex:- 
+int[] x;
+x=new int[3];
+x[0]=10;e
+x[1]=20;
+x[2]=30;
+int x={10,20,30};
+
+Two dimensionl:-
+we can extend this shortcut  for multi-dimensionl arrays also .
+ex:-
+int[][]x={{10,20},{30,40,50}}
+
+if we went to use this shortcut compilsory we should perform all activities in a single line if we are trying to divide into multiple lines then we will get compile time error.
+ex:-
+int() x={10,20,30};=
+int[] x;
+x={10,20,30};=ce=ilegal start of expresion
+
+length vs length():-
+length:-
+length is a final variable applicable for array length variable represents the size of the array.
+ex:- int[] x=new int[6];
+sopin(x length());->ce=cannot find sym() sym(0);method length()location;class int()
+
+length method is a final method appliable for string objects.
+length method returs number of characters present in the string.
+stringr="manoj";
+sopin(r.length);->cannot find sym(0)sym(0): variable length location:class string
+
+Note:-length variable applicable for arrays but not for string objects wheras length method applicable for string objects butnot for arrays.
+
+ex:-string r={"A","AA","AAA"};
+ 
+kamineni manoj
