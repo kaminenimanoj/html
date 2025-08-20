@@ -414,3 +414,4 @@ Note:-length variable applicable for arrays but not for string objects wheras le
 ex:-string r={"A","AA","AAA"};
  
 kamineni manoj
+kamineni manoj
