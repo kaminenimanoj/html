@@ -1,4 +1,4 @@
-language fundamentals:-
+ language fundamentals:-
 1 identifiers
 2 reserved words
 3 data types
