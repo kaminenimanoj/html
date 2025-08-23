@@ -374,5 +374,83 @@ x[2]=30;
 x[3]=40;
 x[4]=50;
 x[5]=60;
-nanoj manoj
+
+types of variables:-
+Based on types of valve represented by variable all variable are divided into two types
+
+1 primitive variables:-
+can be used to represent primitive values
+ex:-int x=10;
+
+2 reference variables:-
+can be used to refer objects 
+ex:-student s=new student();
+s is pointing to object
+
+Based on position of declaration and behavior all variables are divided into three types 
+1 instance variables 
+2 static variables
+3 local variables
+
+1 instance variables:-
+if the valve of a variable is varied from object to object such a type of variables are called instance variables.
+for  every object a separate copy of instance variable will be created. 
+instance variables should be declared within class directly but outside of any method or block or constructor. 
+instance variables will be stored in the heapmemory yeah the part of object.
+but we can access instance variables directly from instance area.
+
+ex:-class test 
+{ 
+int x=10;
+prv main (string ()args)
+{
+sopin (x);->ce:-non-metric variable x cannot be referemed from a static 
+
+text x=new text();
+sopin(t x);10
+}
+public void m1()
+{
+sopin(x);
+}
+}
+
+for instance variables jum will always provide default valves and we are not required to perform initization explicity
+
+ex:-class test
+{
+int x;
+double d;
+boolean b;
+string s;
+prv main(string ()area)
+{
+test f1=new test();
+sopin(t1.x);0
+sopin(t1.d);0.0
+sopin(t1.b);false
+sopin(t1.s);null
+}
+}
+
+static variables:-
+it the valve of a variable is not varied from object to object then it is not recommended to declare as instance variable we have to declare such a type of variables at class level by using static modifier.
+static variables should be declared within the class directly but outside any method or block constructor.
+we can access static variables directy from both instance and static variables directly from both instance and static areas.
+
+ex:-class test
+{
+static int x=10;
+prv main(string()args)
+{
+sopin(x);
+}
+public void main()
+{
+sopin(x);
+}
+}
+
+
+ 
 
