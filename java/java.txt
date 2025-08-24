@@ -445,6 +445,7 @@ prv main(string()args)
 sopin(x);
 }
 public void main()
+
 {
 sopin(x);
 }
