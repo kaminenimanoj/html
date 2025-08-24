@@ -376,7 +376,7 @@ x[4]=50;
 x[5]=60;
 
 types of variables:-
-Based on types of valve represented by variable all variable are divided into two types
+Based on types of valve represented by variable. all variable are divided into two types.
 
 1 primitive variables:-
 can be used to represent primitive values
@@ -404,8 +404,7 @@ ex:-class test
 int x=10;
 prv main (string ()args)
 {
-sopin (x);->ce:-non-metric variable x cannot be referemed from a static 
-
+sopin (x);->ce:-non-metric variable x cannot be referemed from a static.
 text x=new text();
 sopin(t x);10
 }
@@ -415,7 +414,7 @@ sopin(x);
 }
 }
 
-for instance variables jum will always provide default valves and we are not required to perform initization explicity
+for instance variables jum will always provide default valves and we are not required to perform initization explicity.
 
 ex:-class test
 {
