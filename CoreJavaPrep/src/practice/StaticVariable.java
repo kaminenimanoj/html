@@ -2,14 +2,13 @@ package practice;
 class StaticVariable
 {
     static int a = m1();
-    static
     {
-        System.out.println("Inside static block");
+        System.out.println("manoj");
     }
     static int m1()
     {
-        System.out.println("from m1");
-        return 20;
+        System.out.println("manoj");
+        return 10;
     }
     public static void main(String[] args)
     {
