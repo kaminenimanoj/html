@@ -7,7 +7,7 @@ class StaticVariable
     }
     static int m1()
     {
-        System.out.println("manoj");
+        System.out.println("manoj1");
         return 10;
     }
     public static void main(String[] args)

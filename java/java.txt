@@ -451,6 +451,27 @@ sopin(x);
 }
 }
 
+local variables:-
+A function may return a value. The return type of a function is the data type of the value of the function return.
+The return type of function can be on any data type but sometimes it is not required to return the function so use the void return type.
 
- 
+ex:-public class localvariables{
 
+    public static double Area(double radius)
+    {
+        double area = radius  3.14;
+        return area;
+    }
+    public static void main(String[] args)
+    {
+        double radius = 4.4;
+        double answer = Area(radius);
+        System.out.println(answer);
+    }
+}
+
+(var-arg methods)-varables number of argument methods:-
+
+Variable Arguments  write methods that can take any number of inputs, which simply means we do not have to create more methods for different numbers of parameters.
+Instead of passing arrays or multiple methods.
+we can simply use one method, and it will handle all the test cases.
