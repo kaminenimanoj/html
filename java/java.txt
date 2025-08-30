@@ -475,3 +475,12 @@ ex:-public class localvariables{
 Variable Arguments  write methods that can take any number of inputs, which simply means we do not have to create more methods for different numbers of parameters.
 Instead of passing arrays or multiple methods.
 we can simply use one method, and it will handle all the test cases.
+
+Main() method:-
+main() Method - public static void main(String[] args)
+For every Java developer, from the absolute beginner to the seasoned professional, the Java main method is the universal starting line. 
+It serves as the entry point for any standalone application, the exact location where the Java Virtual Machine begins execution. 
+Understanding its signature, public static void main(String[] args), is the first step towards building runnable Java programs.
+This article will be your definitive resource for the main method. 
+We will deconstruct each keyword (public, static, void), explore how to handle command-line arguments effectively, and explain exactly why this signature is so strict.
+ You’ll also learn to navigate common errors, apply professional best practices, and explore advanced concepts that will elevate your code.
