@@ -477,6 +477,7 @@ Instead of passing arrays or multiple methods.
 we can simply use one method, and it will handle all the test cases.
 
 Main() method:-
+
 main() Method - public static void main(String[] args)
 For every Java developer, from the absolute beginner to the seasoned professional, the Java main method is the universal starting line. 
 It serves as the entry point for any standalone application, the exact location where the Java Virtual Machine begins execution. 
@@ -484,3 +485,17 @@ Understanding its signature, public static void main(String[] args), is the firs
 This article will be your definitive resource for the main method. 
 We will deconstruct each keyword (public, static, void), explore how to handle command-line arguments effectively, and explain exactly why this signature is so strict.
  You’ll also learn to navigate common errors, apply professional best practices, and explore advanced concepts that will elevate your code.
+
+command line arguments:-
+
+In Java, command line arguments is a way to pass inputs to the java program during application execution.
+Command line arguments can be passed by multiple ways to Java application or program.
+Most commonly, command line arguments are passed from console where a java program is executed. 
+command-line arguments, provided during program execution, are captured in the main() method as a string array.
+We can check the number of arguments passed using args.length. In case no command line argument is present, then this array is empty.
+ex:-
+class Tester {
+   public static void main(String[] args){
+   ...   
+   }
+}
